@@ -20,19 +20,19 @@
           />
           <ul class="nav__links">
             <li>
-              <a class="nav__link">Staff picks</a>
+              <a href="#staff-picks" class="nav__link">Staff picks</a>
             </li>
             <li>
-              <a class="nav__link">Events</a>
+              <a href="#events" class="nav__link">Events</a>
             </li>
             <li>
-              <a class="nav__link">Become a member</a>
+              <a href="#become-member" class="nav__link">Become a member</a>
             </li>
             <li>
-              <a class="nav__link">About</a>
+              <a href="#about" class="nav__link">About</a>
             </li>
             <li>
-              <a class="nav__link">Contacts</a>
+              <a href="#contacts" class="nav__link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -58,7 +58,7 @@
       <main class="content">
         <section class="events">
           <div class="events__content">
-            <h2 class="events__heading">Upcoming events:</h2>
+            <h2 id="events" class="events__heading">Upcoming events:</h2>
             <h3 class="events__title">
               In honor of Joan Feynman: Women in astrophysics
             </h3>
@@ -118,32 +118,28 @@
               />
             </div>
             <div class="person person_name_mitchell">
-              <p class="person__caption">Maria Mitchell</p>
               <img
                 src="./images/person_mitchell.png"
                 alt="Mitchell's Photo"
                 class="person__image person__image_size_s"
               />
+              <p class="person__caption">Maria Mitchell</p>
             </div>
             <div class="person person_name_cannon">
-              <p class="person__caption">Annie Jump Cannon</p>
               <img
                 src="./images/person_cannon.png"
                 alt="Cannon's Photo"
                 class="person__image person__image_size_m"
               />
+              <p class="person__caption">Annie Jump Cannon</p>
             </div>
           </div>
         </section>
-        <!-- Start creating the composition here -->
 
         <section class="staff">
-          <!-- --------------------------------------------------------------- -->
-          <!--        Don't uncomment until the final project stage            -->
-          <!-- --------------------------------------------------------------- -->
-          <h2 class="staff__title">Staff picks</h2>
+          <h2 id="staff-picks" class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
-          <ul class="staff__card-container">
+          <ul class="staff__card">
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">Introduction to Algorithms</h3>
@@ -215,10 +211,9 @@
         </section>
 
         <section class="membership">
-          <!-- --------------------------------------------------------------- -->
-          <!--         Don't uncomment until the final project stage           -->
-          <!-- --------------------------------------------------------------- -->
-          <h2 class="membership__title">Becoming a library member is easy!</h2>
+          <h2 id="become-member" class="membership__title">
+            Becoming a library member is easy!
+          </h2>
           <ul class="membership__steps">
             <li class="step">
               <h3 class="step__title">
@@ -274,10 +269,7 @@
         </section>
 
         <section class="about">
-          <!-- --------------------------------------------------------------- -->
-          <!--          Don't uncomment until the final project stage          -->
-          <!-- --------------------------------------------------------------- -->
-          <h2 class="about__title">About the library</h2>
+          <h2 id="about" class="about__title">About the library</h2>
           <div class="about__content">
             <p class="about__paragraph">
               Libraries are essential establishments in practically every city,
@@ -301,9 +293,48 @@
         </section>
       </main>
       <footer class="footer">
-        <!-- ----------------------------------------------------------------- -->
-        <!--          Don't uncomment until the final project stage            -->
-        <!-- ----------------------------------------------------------------- -->
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              class="footer__logo"
+              src="./images/logo_white.png"
+              alt="practicum logo"
+            />
+          </div>
+          <div class="footer__column footer__column_content_hours">
+            <h2 class="footer__column-heading">Hours</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">Weekdays: 9am - 8pm</li>
+              <li class="footer__list-item">Weekends: 10am - 6pm</li>
+            </ul>
+          </div>
+          <div class="footer__column footer__column_content_social">
+            <h2 id="contacts" class="footer__column-heading">Social Media</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__column-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="./images/facebook_white.svg"
+                    alt="Facebook Logo"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__column-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="./images/instagram_white.svg"
+                    alt="Instagram Logo"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2023 Bret Shaw</p>
       </footer>
     </div>
   </body>

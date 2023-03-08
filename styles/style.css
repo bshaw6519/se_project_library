@@ -85,8 +85,12 @@
 }
 
 .header__link {
-  color: #1f69c9;
+  color: #2f80ed;
   text-decoration: none;
+}
+
+.header__link:hover {
+  color: #1f69c9;
 }
 
 .header__address {
@@ -262,7 +266,7 @@
   color: #fff;
 }
 
-.staff__card {
+.staff__cards {
   max-width: 760px;
   margin-top: 68px;
   margin-left: auto;
@@ -429,7 +433,7 @@
 }
 
 .footer__logo {
-  width: 153px;
+  width: 116px;
 }
 
 .footer__list {

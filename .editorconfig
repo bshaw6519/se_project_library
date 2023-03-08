@@ -1,7 +1,7 @@
 
 root = true
 
-[*]
+
 
 
 indent_style = space
@@ -19,7 +19,7 @@ charset = utf-8
 trim_trailing_whitespace = true
 
 
-[*.md]
+
 trim_trailing_whitespace = false
 
 
